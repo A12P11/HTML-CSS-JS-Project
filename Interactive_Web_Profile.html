@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Smith's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">
+      <h1>John Smith</h1>
+    </div>
+    <ul>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Project details</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#recommendations" class="nav-link">Recommendations</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="profile">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxe2byozFaIQL-lrkAIYqiDeugKeZxcH-Xg&s" alt="John Smith's profile image" class="profile-img">
+      <div class="bio">
+        <h3>John Smith</h3>
+        <p>Software developer with a passion for web technologies and UI/UX design. Currently learning advanced JavaScript frameworks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8WTFVfqxGIOhYIukZzENY1b6AG18Ius8cZw&s" alt="HTML Logo">
+        <p>HTML</p>
+      </div>
+      <div class="skill">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoW-PbNnnL4rSdys2ReJ1UFMg4bmZB7jTF7w&s" alt="CSS Logo">
+        <p>CSS</p>
+      </div>
+      <div class="skill">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXZaBw88OH_ie1mguAtcIpFNvqsAgUyWYmYg&s" alt="JavaScript Logo">
+        <p>JavaScript</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1: Personal Portfolio</h3>
+      <p>A personal portfolio built using HTML, CSS, and JavaScript to showcase web development skills.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2: Interactive Web App</h3>
+      <p>A dynamic web app built with React.js to manage tasks and improve productivity.</p>
+    </div>
+    <div class="project">
+      <h3>Project 3: E-commerce Website</h3>
+      <p>Developed a fully functional e-commerce website with a checkout system and product recommendations.</p>
+    </div>
+  </section>
+
+  <!-- Recommendations Section -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <ul id="recommendation-list">
+      <li>John is an excellent problem-solver and a quick learner. - Sarah</li>
+      <li>John has great attention to detail and delivers high-quality work. - Mike</li>
+    </ul>
+
+    <div class="add-recommendation">
+      <input type="text" id="recommendation-input" placeholder="Add a recommendation">
+      <button id="submit-recommendation">Submit</button>
+    </div>
+  </section>
+
+  <!-- Home Icon -->
+  <div class="home-icon">
+    <a href="#home"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDy9mBtyJWUPLRobv__N2OwHYdiKAWarKroQ&s" alt="Home Icon"></a>
+  </div>
+
+  <!-- Popup Confirmation -->
+  <div id="popup" class="popup">
+    <p>Recommendation Submitted!</p>
+    <button id="close-popup">Close</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
