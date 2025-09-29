@@ -1,7 +1,7 @@
 # My Project
 
 ## Description
-This project is a simple web application that displays a portfolio.
+This project is a simple web page that displays a portfolio.
 
 ## Installation
 1. Clone the repository:
